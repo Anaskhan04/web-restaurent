@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Add Google Font -->
+    <link rel="icon" type="image/png" href="data:image/jpeg;base64,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">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Delicious Food</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Login.html" target="_blank" rel="noopener noreferrer" class="sign-in-button">Sign In</a></li>
+                </ul>
+            </nav>
+            <div class="header-caption">
+                <h2>Best Quality Food</h2>
+                <p>Order your favorite meals online!</p>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <h2 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 60px;">Welcome to Delicious Food</h2>
+        <p style="font-weight: bolder; font-size: 20px; text-decoration-line:underline;">Order your favorite meals online!</p>
+        <div class="slider">
+            <div class="slides">
+                <img src="01.jpg" alt="Slide 1">
+                <img src="02.jpg" alt="Slide 2">
+                <img src="03.jpg" alt="Slide 3">
+                <img src="04.jpg" alt="Slide 4">
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <h2  style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">Menu</h2>
+        <div class="menu-items">
+            <button class="menu-button">
+                <img src="Burger.jpg"  style="height: 150px; width: 180px;"  alt="Burger">
+                <span style="font-size: 20px;">Burger</span>
+            </button>
+            <button class="menu-button">
+                <img style="height: 150px; width: 180px;" src="P.jpg" alt="Pizza">
+                <span style="font-size: 20px;">Pizza</span>
+            </button>
+            <button class="menu-button">
+                <img style="height: 150px; width: 180px;" src="Pasta.jpg" alt="Pasta">
+                <span style="font-size: 20px;">Pasta</span>
+            </button>
+        </div>
+    </section>
+    <center>
+        <h2  style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">About Us</h2>
+        <img src="about us.jpg" height="450" width="550">
+        <p><h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+        </h3>
+        </p>
+    </center>
+    <center>
+    <section id="contact">
+        <h2  style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- <label for="message">Message:</label> -->
+            <!-- <textarea id="message" name="message" required></textarea> -->
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Delicious Food</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
